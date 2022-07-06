@@ -1,6 +1,6 @@
 .intro-section{
     background-image: url(images/donation13.jpg);
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    height: 80vh;
@@ -204,3 +204,50 @@ border-radius: 20px 20px ;
     margin-left: -10px;
 }
 
+.extra{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-top: 70px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+
+.extrasec{
+    
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidein {
+      0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    }
+    .extrasecclass{
+    text-align: center;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 60px;
+    font-weight: 3000;
+    color: orangered;
+    padding-top: 80px;
+
+    }
+    .extrapara{
+    text-align: center;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgb(20, 19, 19);
+    padding-top: 80px;
+    }
